@@ -5,7 +5,7 @@ Webpack 5 boilerplate with React 17, Tailwind 2, using babel, sass, with a hot d
 ## Installation
 
 ```
-git clone https://github.com/miami78/webpack5-react-boilerplate.git
+git clone https://github.com:altafino/react-webpack-5-tailwind-2.git
 cd react-webpack-5-tailwind-2
 yarn / npm i
 ```
