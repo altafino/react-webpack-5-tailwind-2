@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
