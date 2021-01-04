@@ -9,7 +9,7 @@ Webpack 5 boilerplate with React 17, Tailwind 2, HMR, using babel, sass, with a 
 ## Installation
 
 ```
-git clone https://github.com:altafino/react-webpack-5-tailwind-2.git
+git clone https://github.com/altafino/react-webpack-5-tailwind-2.git
 cd react-webpack-5-tailwind-2
 yarn / npm i
 ```
