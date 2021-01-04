@@ -46,7 +46,6 @@ You can view the development server at `localhost:3000`.
 - [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
 - [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
 - [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration
-- [`cross-env`](https://github.com/kentcdodds/cross-env) - Cross platform configuration
 
 ### Babel
 
