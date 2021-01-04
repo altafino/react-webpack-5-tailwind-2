@@ -1,6 +1,10 @@
 # react-webpack-5-tailwind-2
 
-Webpack 5 boilerplate with React 17, Tailwind 2, using babel, sass, with a hot dev server and an optimized production build
+Webpack 5 boilerplate with React 17, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
+
+## Last Changes:
+- added Prettier
+- added react-refresh-webpack-plugin for HMR
 
 ## Installation
 
@@ -80,5 +84,6 @@ You can view the development server at `localhost:3000`.
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`optimize-css-assets-webpack-plugin`](https://github.com/NMFR/optimize-css-assets-webpack-plugin) - Optimize and minimize CSS assets
 - [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - Optimize and minimize JavaScript
+- [`react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
 
 (originaly based on https://github.com/miami78/webpack5-react-boilerplate.git)
