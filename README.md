@@ -37,7 +37,7 @@ You can view the development server at `localhost:3000`.
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [Eslint](https://eslint.org/)
-- [Husky](https://github.com/typicode/husky) (tks [@rubinj30](https://github.com/rubinj30)
+- [Husky](https://github.com/typicode/husky) ( tks [@rubinj30](https://github.com/rubinj30) )
 
 ## Dependencies
 
