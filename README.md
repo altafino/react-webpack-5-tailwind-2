@@ -30,13 +30,14 @@ You can view the development server at `localhost:3000`.
 
 ## Features
 
-- [React](https://reactjs.org/)
-- [webpack](https://webpack.js.org/)
+- [React 17](https://reactjs.org/)
+- [Webpack 5](https://webpack.js.org/)
 - [Tailwind 2](https://tailwindcss.com)
 - [PostCss](https://postcss.org/)  
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [Eslint](https://eslint.org/)
+- [Husky](https://github.com/typicode/husky) ( tks [@rubinj30](https://github.com/rubinj30) )
 
 ## Dependencies
 
