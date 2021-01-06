@@ -1,4 +1,5 @@
 const paths = require('./paths')
+const Dotenv = require('dotenv-webpack')
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common.js')
 
@@ -15,6 +16,9 @@ module.exports = merge(common, {
     filename: 'js/[name].[contenthash].bundle.js',
   },
   plugins: [
+    new Dotenv({
+      path: './.env.production',
+    }),
     // Extracts CSS into separate files
     // Note: style-loader is for development, MiniCssExtractPlugin is for production
     new MiniCssExtractPlugin({

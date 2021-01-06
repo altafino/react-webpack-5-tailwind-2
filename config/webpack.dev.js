@@ -1,5 +1,5 @@
 const paths = require('./paths')
-
+const Dotenv = require('dotenv-webpack')
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common.js')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
@@ -44,7 +44,9 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
-    // ... other plugins
+    new Dotenv({
+      path: './.env.development',
+    }),
     // new webpack.HotModuleReplacementPlugin(),
     new ReactRefreshWebpackPlugin(),
   ].filter(Boolean),

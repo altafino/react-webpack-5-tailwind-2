@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "description": "Webpack 5 boilerplate with React 17, Tailwind 2, using babel, sass, with a hot dev server and an optimized production build",
   "dependencies": {
+    "dotenv-webpack": "^6.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss": "^2.0.2"

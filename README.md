@@ -2,7 +2,8 @@
 
 Webpack 5 boilerplate with React 17, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
 
-## Last Changes:
+## Last Changes (the newest first):
+- added dotenv-webpack to handle process.env.VARS
 - added Prettier
 - added react-refresh-webpack-plugin for HMR
 
