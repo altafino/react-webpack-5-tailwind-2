@@ -85,6 +85,7 @@ You can view the development server at `localhost:3000`.
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`optimize-css-assets-webpack-plugin`](https://github.com/NMFR/optimize-css-assets-webpack-plugin) - Optimize and minimize CSS assets
 - [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - Optimize and minimize JavaScript
-- [`react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
+- [`react-refresh-webpack-plugin`](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
+- [`dotenv-webpack`](https://github.com/mrsteele/dotenv-webpack) - Supports dotenv and other environment variables
 
-(originaly based on https://github.com/miami78/webpack5-react-boilerplate.git)
+(originally based on https://github.com/miami78/webpack5-react-boilerplate.git)
