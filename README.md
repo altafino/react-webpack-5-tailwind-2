@@ -1,6 +1,6 @@
 # react-webpack-5-tailwind-2
 
-Webpack 5 boilerplate with React 17, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
+React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
 
 ## Last Changes (the newest first):
 - added dotenv-webpack to handle process.env.VARS
