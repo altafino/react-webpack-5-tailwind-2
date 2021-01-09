@@ -23,6 +23,7 @@
   "scripts": {
     "start": "webpack serve --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js",
+    "build-staging": "webpack --config config/webpack.stag.js",
     "prettify": "yarn prettier \"**/*.*(js|jsx)\" --ignore-path=.prettierignore --write",
     "lint": "eslint src --ext .js,.jsx && yarn prettify",
     "lint-fix": "eslint src --ext .js,.jsx --fix && yarn prettify",

@@ -3,6 +3,7 @@
 React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
 
 ## Last Changes (the newest first):
+- added build-staging script. same as build but using .env.staging
 - added dotenv-webpack to handle process.env.VARS
 - added Prettier
 - added react-refresh-webpack-plugin for HMR
