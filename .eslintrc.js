@@ -19,7 +19,7 @@ module.exports = {
     },
     sourceType: "module",
   },
-  plugins: ["babel", "react", "import", "prettier"],
+  plugins: ["babel", "react", "import", "prettier","react-hooks"],
   rules: {
     "import/no-duplicates": "error",
     "import/no-unresolved": "error",
@@ -28,6 +28,8 @@ module.exports = {
     "react/no-typos": "error",
     "react/no-unused-state": "error",
     "react/jsx-no-bind": "error",
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
     "array-callback-return": "error",
     "consistent-return": "error",
     "babel/no-invalid-this": "error",
