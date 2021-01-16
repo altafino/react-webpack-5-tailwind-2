@@ -3,6 +3,7 @@
 React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
 
 ## Last Changes (the newest first):
+- added SVGR as a webpack loader to import your SVG directly as a React Component.
 - added build-staging script. same as build but using .env.staging
 - added dotenv-webpack to handle process.env.VARS
 - added Prettier
@@ -89,5 +90,7 @@ You can view the development server at `localhost:3000`.
 - [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - Optimize and minimize JavaScript
 - [`react-refresh-webpack-plugin`](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
 - [`dotenv-webpack`](https://github.com/mrsteele/dotenv-webpack) - Supports dotenv and other environment variables
+- [`@svgr/webpack`](https://github.com/mrsteele/dotenv-webpack) - SVGR can be used as a webpack loader, this way you can import your SVG directly as a React Component.
 
-(originally based on https://github.com/miami78/webpack5-react-boilerplate.git)
+
+[Full-Stack Go/JS Development - Altafino](https://altafino.com)
