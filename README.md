@@ -2,6 +2,8 @@
 
 React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
 
+[Demo](https://dreamy-shirley-041c74.netlify.app/)
+
 ## Last Changes (the newest first):
 - added SVGR as a webpack loader to import your SVG directly as a React Component.
 - added build-staging script. same as build but using .env.staging
