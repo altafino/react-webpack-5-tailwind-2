@@ -18,6 +18,7 @@ git clone https://github.com/altafino/react-webpack-5-tailwind-2.git
 cd react-webpack-5-tailwind-2
 yarn / npm i
 ```
+To use it for your own project the easyst way is to use the green Template Button on top right of this repo on Github.
 
 ## Usage
 
