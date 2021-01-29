@@ -30,6 +30,8 @@ module.exports = {
     "react/jsx-no-bind": "error",
     "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "array-callback-return": "error",
     "consistent-return": "error",
     "babel/no-invalid-this": "error",
