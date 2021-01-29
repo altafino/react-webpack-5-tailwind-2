@@ -1,9 +1,9 @@
-import React from 'react'
+import { Component } from 'react'
 
 import Logo from './assets/altafino.svg'
 import './app.styles.scss'
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div className='flex items-center justify-center h-screen'>
