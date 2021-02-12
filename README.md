@@ -4,6 +4,8 @@ React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sas
 
 [Demo](https://dreamy-shirley-041c74.netlify.app/)
 
+Maintained by [Altafino - Full-Stack Go/JS Development](https://altafino.com)
+
 ## Last Changes (the newest first):
 - added SVGR as a webpack loader to import your SVG directly as a React Component.
 - added build-staging script. same as build but using .env.staging
@@ -96,4 +98,4 @@ You can view the development server at `localhost:3000`.
 - [`@svgr/webpack`](https://github.com/mrsteele/dotenv-webpack) - SVGR can be used as a webpack loader, this way you can import your SVG directly as a React Component.
 
 
-[Full-Stack Go/JS Development - Altafino](https://altafino.com)
+
