@@ -1,12 +1,13 @@
 # react-webpack-5-tailwind-2
 
-React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, sass, with a hot dev server and an optimized production build
+React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, Jest unit testing, sass, with a hot dev server and an optimized production build
 
 [Demo](https://dreamy-shirley-041c74.netlify.app/)
 
 Maintained by [Altafino - Full-Stack Go/JS Development](https://altafino.com)
 
 ## Last Changes (the newest first):
+- added full support for unit testing (with file mocks) using Jest
 - added SVGR as a webpack loader to import your SVG directly as a React Component.
 - added build-staging script. same as build but using .env.staging
 - added dotenv-webpack to handle process.env.VARS
@@ -33,6 +34,11 @@ yarn start / npm start
 You can view the development server at `localhost:3000`.
 (change port in ./config/webpack.dev.js)
 
+### Unit Test
+
+```bash
+ yarn test / npm test
+```
 
 ### Production build
 
@@ -45,6 +51,7 @@ You can view the development server at `localhost:3000`.
 - [React 17](https://reactjs.org/)
 - [Webpack 5](https://webpack.js.org/)
 - [Tailwind 2](https://tailwindcss.com)
+- [Jest 26](http://jestjs.io/)
 - [PostCss](https://postcss.org/)  
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
@@ -65,6 +72,13 @@ You can view the development server at `localhost:3000`.
 - [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
 - [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class (an example Babel config)
 - [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
+
+### Jest
+
+- [`jest`](https://jestjs.io/) - Delightful JavaScript Testing
+- [`@testing-library/jest-dom`](https://github.com/testing-library/jest-dom#readme) - Custom jest matchers to test the state of the DOM
+- [`@testing-library/react`](https://testing-library.com/docs/react-testing-library/intro/) - Simple and complete React DOM testing utilities
+- [`@testing-library/user-event`](https://github.com/testing-library/user-event#readme) - Fire events the same way the user does
 
 ### Loaders
 
@@ -96,6 +110,7 @@ You can view the development server at `localhost:3000`.
 - [`react-refresh-webpack-plugin`](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
 - [`dotenv-webpack`](https://github.com/mrsteele/dotenv-webpack) - Supports dotenv and other environment variables
 - [`@svgr/webpack`](https://github.com/mrsteele/dotenv-webpack) - SVGR can be used as a webpack loader, this way you can import your SVG directly as a React Component.
+- [`babel-jest`](https://www.npmjs.com/package/babel-jest) - Babel jest plugin for transforimg ```.js``` and ```.jsx``` files
 
 
 
