@@ -75,7 +75,7 @@ You can view the development server at `localhost:3000`.
 
 ### Jest
 
-- [`jest`](https://webpack.js.org/loaders/postcss-loader/) - Loader to process CSS with PostCSS
+- [`jest`](https://jestjs.io/) - Delightful JavaScript Testing
 - [`@testing-library/jest-dom`](https://github.com/testing-library/jest-dom#readme) - Custom jest matchers to test the state of the DOM
 - [`@testing-library/react`](https://testing-library.com/docs/react-testing-library/intro/) - Simple and complete React DOM testing utilities
 - [`@testing-library/user-event`](https://github.com/testing-library/user-event#readme) - Fire events the same way the user does
