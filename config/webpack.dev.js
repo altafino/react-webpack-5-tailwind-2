@@ -25,7 +25,7 @@ module.exports = merge(common, {
     rules: [
       // ... other rules
       {
-        test: /\.[jt]sx?$/,
+        test: /\.[js]sx?$/,
         exclude: /node_modules/,
         use: [
           // ... other loaders
