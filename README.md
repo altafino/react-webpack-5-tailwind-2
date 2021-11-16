@@ -1,12 +1,13 @@
-# react-webpack-5-tailwind-2
+# react-webpack-6-tailwind-2
 
-React 17 Boilerplate with React 17, Webpack 5, Tailwind 2, HMR, using babel, Jest unit testing, sass, with a hot dev server and an optimized production build
+React 17 Boilerplate with React 17, Webpack 6, Tailwind 2, HMR, using babel, Jest unit testing, sass, with a hot dev server and an optimized production build
 
 [Demo](https://dreamy-shirley-041c74.netlify.app/)
 
 Maintained by [Altafino - Full-Stack Go/JS Development](https://altafino.com)
 
 ## Last Changes (the newest first):
+
 - added full support for unit testing (with file mocks) using Jest
 - added SVGR as a webpack loader to import your SVG directly as a React Component.
 - added build-staging script. same as build but using .env.staging
@@ -21,6 +22,7 @@ git clone https://github.com/altafino/react-webpack-5-tailwind-2.git
 cd react-webpack-5-tailwind-2
 yarn / npm i
 ```
+
 To use it for your own project the easiest way is to use the green Template Button on top right of this repo on Github.
 
 ## Usage
@@ -49,10 +51,10 @@ You can view the development server at `localhost:3000`.
 ## Features
 
 - [React 17](https://reactjs.org/)
-- [Webpack 5](https://webpack.js.org/)
+- [Webpack 6](https://webpack.js.org/)
 - [Tailwind 2](https://tailwindcss.com)
-- [Jest 26](http://jestjs.io/)
-- [PostCss](https://postcss.org/)  
+- [Jest 27](http://jestjs.io/)
+- [PostCss](https://postcss.org/)
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [Eslint](https://eslint.org/)
@@ -90,6 +92,7 @@ You can view the development server at `localhost:3000`.
 - [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
 
 ### Eslint
+
 - [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier) - Turns off all rules that are unnecessary or might conflict with Prettier.
 - [`eslint-import-resolver-alias`](https://www.npmjs.com/package/eslint-import-resolver-alias) - a simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias.
 - [`eslint-plugin-babel`](https://www.npmjs.com/package/eslint-plugin-babel) - an eslint rule plugin companion to babel-eslint.
@@ -97,7 +100,6 @@ You can view the development server at `localhost:3000`.
 - [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) - Runs prettier as an eslint rule.
 - [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint.
 - [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) - Enforces the Rules of React Hooks.
-
 
 ### Plugins
 
@@ -110,7 +112,4 @@ You can view the development server at `localhost:3000`.
 - [`react-refresh-webpack-plugin`](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
 - [`dotenv-webpack`](https://github.com/mrsteele/dotenv-webpack) - Supports dotenv and other environment variables
 - [`@svgr/webpack`](https://github.com/mrsteele/dotenv-webpack) - SVGR can be used as a webpack loader, this way you can import your SVG directly as a React Component.
-- [`babel-jest`](https://www.npmjs.com/package/babel-jest) - Babel jest plugin for transforimg ```.js``` and ```.jsx``` files
-
-
-
+- [`babel-jest`](https://www.npmjs.com/package/babel-jest) - Babel jest plugin for transforimg `.js` and `.jsx` files
