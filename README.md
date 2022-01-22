@@ -2,6 +2,8 @@
 I am not more maintain this project actively for different reasons. One is, that with Vite we have a nicer way to handle different aspects, other is time.
 But I check and can accept pull requests.
 
+### Visit my [Job Board for React Jobs](https://reactjsjob.com)
+
 
 # react-webpack-6-tailwind-2
 
