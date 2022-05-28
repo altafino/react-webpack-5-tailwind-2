@@ -11,6 +11,7 @@ class App extends Component {
           <div>
             Webpack 6 boilerplate with React 17, Tailwind 2, using babel, sass,
             with a hot dev server and an optimized production build.
+            <a href="https://reactjsjob.com">React Jobs for React JS Developers</a>
             <div className={'bg-red-500 text-white'}>
               process.env.API_URL:{process.env.API_URL} !!! Make sure to put
               both .env.* files in gitignore.
